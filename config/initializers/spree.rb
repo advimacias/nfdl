@@ -13,6 +13,9 @@ Spree.config do |config|
   # Example:
   # Uncomment to stop tracking inventory levels in the application
   # config.track_inventory_levels = false
+  config.admin_interface_logo = 'logo/nfdl.png'
+  config.logo = 'logo/nfdl.png'
 end
 
-Spree.user_class = "Spree::User"
+Spree.user_class = 'Spree::User'
+Spree::Auth::Config[:confirmable] = true
