@@ -47,6 +47,8 @@ group :development do
   gem 'spring'
 end
 
+gem 'dotenv'
+gem 'dotenv-rails'
 
 gem 'spree'
 gem 'spree_gateway', github: 'spree/spree_gateway', branch: '3-0-stable'
