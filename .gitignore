@@ -14,9 +14,9 @@
 .idea/
 public/spree/*
 
-
 # dotenv
 .env
+
 # Elastic Beanstalk Files
 .elasticbeanstalk/*
 !.elasticbeanstalk/*.cfg.yml

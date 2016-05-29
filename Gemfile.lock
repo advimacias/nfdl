@@ -11,26 +11,6 @@ GIT
       rails-i18n (~> 4.0.1)
       spree_core (~> 3.0.5)
 
-GIT
-  remote: git://github.com/spree/spree_auth_devise.git
-  revision: 1ac9dcc33049b185a0dd884c832583feb4b91890
-  branch: 3-0-stable
-  specs:
-    spree_auth_devise (3.0.6)
-      devise (~> 3.5.4)
-      devise-encryptable (= 0.1.2)
-      json
-      multi_json
-      spree_core (~> 3.0.0)
-
-GIT
-  remote: git://github.com/spree/spree_gateway.git
-  revision: 3cb02b0b3a45be5f4ace9d9295ffb3c11864e605
-  branch: 3-0-stable
-  specs:
-    spree_gateway (3.0.0)
-      spree_core (~> 3.0.0)
-
 GEM
   remote: https://rubygems.org/
   specs:
@@ -270,6 +250,12 @@ GEM
       rabl (~> 0.11.6)
       spree_core (= 3.0.9)
       versioncake (~> 2.3.1)
+    spree_auth_devise (3.0.6)
+      devise (~> 3.5.4)
+      devise-encryptable (= 0.1.2)
+      json
+      multi_json
+      spree_core (~> 3.0.0)
     spree_backend (3.0.9)
       bootstrap-sass (~> 3.3)
       jquery-rails (~> 4.1)
@@ -310,6 +296,8 @@ GEM
       jquery-rails (~> 4.1)
       spree_api (= 3.0.9)
       spree_core (= 3.0.9)
+    spree_gateway (3.0.0)
+      spree_core (~> 3.0.0)
     spree_sample (3.0.9)
       spree_core (= 3.0.9)
     spring (1.7.1)
@@ -372,8 +360,8 @@ DEPENDENCIES
   sass-rails
   sdoc
   spree
-  spree_auth_devise!
-  spree_gateway!
+  spree_auth_devise (~> 3.0)
+  spree_gateway (~> 3.0)
   spree_i18n!
   spring
   turbolinks
